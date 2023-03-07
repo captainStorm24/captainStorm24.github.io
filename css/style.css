@@ -1031,37 +1031,36 @@ footer a:hover {
     display: block;
     position: absolute;
     right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 18px;
+    top: 28%;
+    width: 25px;
+    height: 25px;
   }
-  /* line 194, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 193, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .hamburger span {
     display: block;
     height: 2px;
-    width: 20px;
+    width: 25px;
     background-color: #fff;
-    margin-bottom: 4px;
+    margin-bottom: 7px;
     transition: 0.5s all;
   }
-  /* line 202, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 201, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .hamburger_active span {
-    margin-bottom: -2px;
+    margin-bottom: 2px;
   }
-  /* line 204, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 203, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .hamburger_active span:nth-child(1) {
-    transform: translateY(6px) rotate(-45deg);
+    transform: translateY(10px) rotate(-45deg);
   }
-  /* line 206, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 205, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .hamburger_active span:nth-child(2) {
     display: none;
   }
-  /* line 208, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 207, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .hamburger_active span:nth-child(3) {
     transform: translateY(6px) rotate(45deg);
   }
-  /* line 211, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 210, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .subheader_phone {
     margin-top: 17px;
     font-size: 14px;
@@ -1070,71 +1069,71 @@ footer a:hover {
     text-transform: uppercase;
     margin-left: 0;
   }
-  /* line 218, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 217, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .subheader_btn {
     display: block;
     margin: 2px auto;
     height: 36px;
     line-height: 36px;
   }
-  /* line 224, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 223, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .promo_header {
     font-size: 36px;
   }
-  /* line 226, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 225, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .promo_subheader {
     font-size: 21px;
   }
-  /* line 228, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 227, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .promo_descr {
     font-size: 14px;
   }
-  /* line 231, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 230, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons_block {
     flex-direction: row;
     align-items: center;
   }
-  /* line 234, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 233, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons_descr {
     width: 376px;
   }
-  /* line 236, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 235, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons_text {
     font-size: 13px;
   }
-  /* line 238, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 237, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons_subtitle {
     font-size: 15px;
     margin-top: 0;
   }
-  /* line 241, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 240, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons_round {
     margin-right: 20px;
   }
-  /* line 244, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 243, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .choice_first {
     height: 420px;
   }
-  /* line 246, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 245, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .choice_img {
     width: 486px;
     top: 216px;
   }
-  /* line 249, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 248, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .choice_second {
     min-height: 230px;
     padding-top: 132px;
   }
-  /* line 252, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 251, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .world {
     height: 380px;
   }
-  /* line 256, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 255, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_wrapper > div:last-child {
     height: auto;
     justify-content: center;
   }
-  /* line 259, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 258, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_mobile {
     display: flex;
     flex-direction: row;
@@ -1142,155 +1141,155 @@ footer a:hover {
     height: auto;
     width: 265px;
   }
-  /* line 265, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 264, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_mobile img {
     height: 27px;
     width: auto;
   }
-  /* line 268, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 267, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_social {
     width: 154px;
     margin: 20px auto;
   }
-  /* line 271, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 270, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_social_item {
     margin: 0 1px;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 274, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 273, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .xs-hiden {
     display: none;
   }
-  /* line 276, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 275, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .xs-visible {
     display: block;
   }
-  /* line 279, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 278, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   footer .xs-visible {
     display: block;
   }
-  /* line 281, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 280, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .black_title {
     font-size: 16px;
     margin-top: 15px;
   }
-  /* line 284, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 283, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .white_title {
     margin-top: 21px;
     font-size: 16px;
     line-height: 12px;
   }
-  /* line 288, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 287, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   nav {
-    height: 33px;
+    height: 50px;
   }
-  /* line 290, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 289, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .menu {
-    width: 88%;
+    width: 86%;
   }
-  /* line 293, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 292, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   header .subheader {
-    top: 33px;
+    top: 50px;
     height: 60px;
   }
-  /* line 296, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 295, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   header .subheader_phone {
     margin-top: 7px;
     font-size: 12px;
   }
-  /* line 299, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 298, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   header .subheader_btn {
     width: 110px;
     height: 22px;
     line-height: 20px;
   }
-  /* line 303, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 302, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .header_bg {
-    top: -167px;
+    top: -150px;
   }
-  /* line 305, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 304, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .promo {
-    margin-top: -27px;
+    margin-top: -10px;
     min-height: 400px;
     padding-top: 113px;
     padding-bottom: 35px;
   }
-  /* line 310, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 309, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .promo_header {
     font-size: 30px;
   }
-  /* line 312, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 311, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .promo_subheader {
     font-size: 20px;
   }
-  /* line 314, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 313, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .promo_btn {
     height: 50px;
     width: 210px;
     line-height: 50px;
     font-size: 16px;
   }
-  /* line 319, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 318, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons {
     padding-top: 22px;
     padding-bottom: 57px;
   }
-  /* line 322, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 321, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons_block {
     flex-direction: column;
     margin-top: 26px;
   }
-  /* line 325, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 324, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons_descr {
     width: 100%;
     margin-top: 27px;
   }
-  /* line 328, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 327, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons_round {
     height: 100px;
     width: 100px;
     margin-right: 0;
   }
-  /* line 332, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 331, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons_subtitle {
     font-size: 16px;
   }
-  /* line 334, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 333, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .reasons_text {
     font-size: 15px;
   }
-  /* line 336, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 335, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .caps {
     padding-top: 17px;
     padding-bottom: 43px;
     background: none;
   }
-  /* line 340, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 339, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .caps_desc {
     margin-top: 11px;
   }
-  /* line 342, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 341, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .caps_item {
     width: 290px;
     height: 254px;
     padding-top: 81px;
   }
-  /* line 346, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 345, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .caps_item_desc {
     font-size: 18px;
   }
-  /* line 348, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 347, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .caps_item_more {
     bottom: 22px;
   }
-  /* line 351, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 350, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .choice_first {
     min-height: 390px;
     padding: 25px 0 33px 0;
   }
-  /* line 354, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 353, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .choice_img {
     transform: translateX(0);
     position: static;
@@ -1299,91 +1298,91 @@ footer a:hover {
     margin-top: 35px;
     width: 300px;
   }
-  /* line 361, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 360, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .choice_descr {
     color: #ffffff;
     font-size: 17px;
     font-weight: 300;
     text-align: center;
   }
-  /* line 366, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 365, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .conditions {
     padding-top: 25px;
     padding-bottom: 11px;
   }
-  /* line 369, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 368, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .conditions_item {
     margin-top: 22px;
     margin-bottom: 6px;
   }
-  /* line 372, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 371, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .conditions_item:last-child {
     margin-bottom: 0;
   }
-  /* line 374, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 373, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .conditions_item_title {
     font-size: 16px;
   }
-  /* line 377, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 376, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .conditions_item_desc li {
     font-size: 14px;
     margin-bottom: 5px;
   }
-  /* line 380, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 379, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .conditions_item_desc li:last-child {
     margin-bottom: 0;
   }
-  /* line 382, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 381, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .conditions_item_end {
     font-size: 14px;
   }
-  /* line 384, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 383, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .world {
     padding-top: 25px;
     padding-bottom: 30px;
     height: 360px;
   }
-  /* line 388, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 387, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .world_desc {
     margin-top: 10px;
     font-size: 14px;
     line-height: 12px;
   }
-  /* line 392, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 391, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   footer {
     padding: 25px 18px 20px;
   }
-  /* line 395, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 394, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_divider {
     width: 253px;
   }
-  /* line 397, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 396, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_links {
     width: 100%;
   }
-  /* line 399, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 398, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_links_main {
     padding: 0;
   }
-  /* line 401, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 400, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_links_main a {
     font-size: 14px;
   }
-  /* line 403, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 402, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_links_sub {
     padding: 0 20px;
   }
-  /* line 405, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 404, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_links_sub_1 {
     display: flex;
     justify-content: space-between;
   }
-  /* line 408, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 407, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_links_sub_2 {
     display: flex;
     justify-content: space-between;
   }
-  /* line 411, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
+  /* line 410, ../../../../../Users/ilya.seliazniou/Documents/Learning/WebDev/Uber/src/sass/_media.sass */
   .footer_links_lang {
     margin-top: 13px;
   }
