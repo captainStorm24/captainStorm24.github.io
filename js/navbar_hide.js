@@ -3,7 +3,7 @@ let navbar = document.getElementById("navbar");
 
 window.onscroll = function() {
   let currentScrollPos = window.pageYOffset;
-  if (currentScrollPos === 0) {
+  if (currentScrollPos <= 0) {
     // If currentScrollPos is 0, show the navbar
     navbar.style.top = "0";
   } else if (prevScrollpos > currentScrollPos) {
