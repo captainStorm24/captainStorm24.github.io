@@ -1,14 +1,17 @@
-var prevScrollpos = window.pageYOffset;
+let prevScrollpos = window.pageYOffset;
+let navbar = document.getElementById("navbar");
+
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-    console.log("current" + currentScrollPos + ' ');
-    console.log("prev" + prevScrollpos + ' ');
-  } else if (currentScrollPos!= 0) {
-    document.getElementById("navbar").style.top = "-50px";
-    console.log("current" + currentScrollPos + ' ');
-    console.log("prev" + prevScrollpos + ' ');
+  let currentScrollPos = window.pageYOffset;
+  if (currentScrollPos === 0) {
+    // If currentScrollPos is 0, show the navbar
+    navbar.style.top = "0";
+  } else if (prevScrollpos > currentScrollPos) {
+    // User is scrolling up, so show the navbar
+    navbar.style.top = "0";
+  } else {
+    // User is scrolling down, so hide the navbar
+    navbar.style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
 }
