@@ -1,0 +1,134 @@
+.promo {
+    background: no-repeat center/cover url(../img/bg1-xl.jpg);
+    padding-top: 75px;  
+    padding-bottom: 93px;
+    min-height: 650px;
+    .wrapper {
+        margin-top: 71px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 42px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: right;  
+        margin-bottom: 0;
+    }
+    &__sub-title{
+        margin-top: 17px;
+        margin-bottom: 0;
+        font-size: 24px;
+        line-height: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: right;  
+    }
+    &__items {
+        margin-top: 61px;
+        margin-right: 16px;
+        height: 96px;
+        width: 424px;
+    }
+    &__item {
+        text-align: center;
+        font-size: 14px;
+        line-height: 14px;
+        color: #fff;
+        div {
+            margin-top: 20px;
+        }
+
+    }
+    &__catalog {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 25px;
+        color: #FFFFFF;
+        a {
+            color: #fff;
+            &:hover {
+                color:#fff;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .promo {
+        background: no-repeat center/cover url(../img/bg1-lg.jpg);
+        padding-bottom: 60px;
+        min-height: 600px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .promo {
+        background: no-repeat center/cover url(../img/bg1-md.jpg);
+        min-height: 438px;
+        padding-bottom: 35px;
+        .wrapper {
+            margin-top: 45px;
+        }
+        &__title {
+            font-size: 32px;
+            line-height: 32px;
+        }
+        &__sub-title{
+            margin-top: 14px;
+            margin-bottom: 0;
+            font-size: 19px;
+            line-height: 19px;
+        }
+        &__items {
+            height: 77px;
+            width: 373px;
+            margin-top: 35px;
+        }
+        &__item {
+            font-size: 12px;
+            line-height: 11px;
+            div {
+                margin-top: 14px;
+            }
+            img {
+                height: 40%;
+            }
+        }
+        &__catalog {
+            font-size: 13px;
+            
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    .promo {
+        background: no-repeat left/cover url(../img/bg1-sm.jpg);
+        min-height: 428px;
+        .wrapper {
+            margin-top: 45px;
+        }
+        &__title {
+            font-size: 23px;
+            line-height: 23px;
+        }
+        &__sub-title{
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+        &__items {
+            height: 77px;
+            width: 280px;
+            margin-top: 35px;
+            margin-right: 0;
+        }
+        &__catalog {
+            font-size: 13px;
+            
+        }
+    }
+}
+@media only screen and (max-width: 575px) {
+    .promo {
+        background: no-repeat left/cover url(../img/bg1-xs.jpg);
+    }
+}

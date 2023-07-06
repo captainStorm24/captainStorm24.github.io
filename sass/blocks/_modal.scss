@@ -1,0 +1,59 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    height: 100%;
+    width: 100vw;
+    &__background {
+        background-color: rgba($color: #000000, $alpha: .4);
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100vw;
+    }
+    &_active {
+        display: block;
+    }
+    &__window {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 382px;
+        max-width: 80%;
+        padding: 0 24px 40px 24px;
+        background-color: #F2F2F2;
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        &_thanks {
+            padding: 0 62px 34px 62px;
+        }
+        &_active {
+            display: flex;
+        }
+    }
+    &__close-btn {
+        position: absolute;
+        right: -40px;
+        cursor: pointer;
+    }
+    &__title {
+        margin-top: 35px;
+        color: #0D0D0D;
+        text-align: center;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 19px;
+    }
+    &__subtitle {
+        margin-top: 10px;
+        color: #0D0D0D;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 14px;
+    }
+}
